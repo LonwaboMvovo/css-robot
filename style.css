@@ -1,3 +1,8 @@
+body {
+	background-color: rgb(158, 190, 160);
+	font-family: cursive;
+}
+
 h1 {
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
@@ -31,7 +36,7 @@ h1 {
 
 .head:hover {
 	width: 300px;
-    transition: 1s ease-in-out;
+	transition: 1s ease-in-out;
 }
 
 .upper_body { 
@@ -78,12 +83,35 @@ h1 {
 	margin-left: 45px; 
 } 
 
+.left_arm:hover {
+	transition: 0.5s ease-in-out;
+	transform: translate(0px,-20px);
+}
+
+.right_arm:hover {
+	transition: 0.5s ease-in-out;
+	transform: translate(0px,-20px);
+}
+
+.torso:hover {
+	width: 250px;
+	transition: 0.2s ease-in-out;
+}
+
 .left_leg:hover {
 	-webkit-transform: rotate(20deg);
     -moz-transform: rotate(20deg);
     -o-transform: rotate(20deg);
     -ms-transform: rotate(20deg);
     transform: rotate(20deg);
+}
+
+.right_leg:hover {
+	-webkit-transform: rotate(-20deg);
+    -moz-transform: rotate(-20deg);
+    -o-transform: rotate(-20deg);
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg);
 }
 
 .right_leg { 
@@ -111,7 +139,35 @@ h1 {
 	left: 120px; 
 }
 
+/*  */
 
+.left_iris, .right_iris { 
+	width: 10px; 
+	height: 10px; 
+	border-radius: 5px; 
+	background-color: black;  
+} 
 
+.left_iris { 
+	/* These properties are new and you haven't encountered
+	in this course. Check out CSS Tricks to see what it does! */
+	position: relative; 
+	top: 5px; 
+	left: 5px; 
+} 
 
+.right_iris { 
+	position: relative; 
+	top: 5px; 
+	left: 5px; 
+}
 
+.left_eye:hover {
+	transform: scale(1.5);
+	transition: 0.2s ease-in-out;
+}
+
+.right_eye:hover {
+	transform: scale(1.5);
+	transition: 0.2s ease-in-out;
+}
