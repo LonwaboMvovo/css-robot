@@ -1,11 +1,13 @@
 body {
 	background-color: rgb(158, 190, 160);
 	font-family: cursive;
+	padding-top: 50px;
 }
 
 h1 {
 	text-align: center;
-	font-family: 'Roboto', sans-serif;
+	font-family: cursive;
+	font-size: 4 rem;
 }
 
 .robots {
@@ -36,7 +38,7 @@ h1 {
 
 .head:hover {
 	width: 300px;
-	transition: 1s ease-in-out;
+	transition: 0.5s ease-in-out;
 }
 
 .upper_body { 
@@ -68,7 +70,6 @@ h1 {
 .lower_body { 
 	width: 200px; 
 	height: 200px;
-	/* This is another useful property. Hmm what do you think it does?*/
 	margin: 0 auto;
 	display: flex;
 } 
@@ -125,9 +126,7 @@ h1 {
 	background-color: white;  
 } 
 
-.left_eye { 
-	/* These properties are new and you haven't encountered
-	in this course. Check out CSS Tricks to see what it does! */
+.left_eye {
 	position: relative; 
 	top: 100px; 
 	left: 40px; 
@@ -139,8 +138,6 @@ h1 {
 	left: 120px; 
 }
 
-/*  */
-
 .left_iris, .right_iris { 
 	width: 10px; 
 	height: 10px; 
@@ -148,9 +145,7 @@ h1 {
 	background-color: black;  
 } 
 
-.left_iris { 
-	/* These properties are new and you haven't encountered
-	in this course. Check out CSS Tricks to see what it does! */
+.left_iris {
 	position: relative; 
 	top: 5px; 
 	left: 5px; 
@@ -171,3 +166,9 @@ h1 {
 	transform: scale(1.5);
 	transition: 0.2s ease-in-out;
 }
+
+/* Still have to make eyes point towards mouse */
+
+/* Still have to make resposive for all devices */
+
+/* Done by Lonwabo Mvovo from a template in 'The Complete Web Developer in 2020: Zero to Mastery' from Udemy */
